@@ -1,0 +1,27 @@
+{
+	"files_path": {
+        "steganalysis_file_path": "/home/xiaojiuwo/Desktop/tf_audio_steganalysis/audio_samples/cover_128.mp3",
+        "steganalysis_files_path": "/home/xiaojiuwo/Desktop/tf_audio_steganalysis/audio_samples/",
+        "models_path": "/home/xiaojiuwo/Descktop/tf_audio_steganalysis/models/"
+	},
+	"mode_config": {
+		"gpu_selection": "",
+        "gpu": "0",
+        "mode": "steganalysis",
+        "submode": "one",
+        "carrier": "qmdct",
+        "network": "chap4"
+    },
+  "index": {
+        "start_index_steganalysis": 32000,
+        "end_index_steganalysis": 32006
+    },
+    "hyper_parameters": {
+        "class_num": 2
+    },
+    "shape": {
+        "height": 200,
+        "width": 400,
+        "channel": 1
+    }
+}
